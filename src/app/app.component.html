@@ -3,9 +3,11 @@
     More than 900 Ways clinic staff members diagnosed Covid-19
   </h3>
 </header>
+<div class="card-container">
 
 <app-card
   (cardClicked)="onClick($event)"
   *ngFor="let card of cards"
   [card]="card"
 ></app-card>
+</div>

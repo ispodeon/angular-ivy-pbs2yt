@@ -12,10 +12,10 @@ export class AppComponent {
   color: string = '';
 
   cards: Card[] = [
-    { color: 'blue' },
-    { color: 'black' },
-    { color: 'red' },
-    { color: 'green' },
+    { color: 'Blue' },
+    { color: 'Black' },
+    { color: 'Red' },
+    { color: 'Green' },
   ];
 
   constructor() {}
